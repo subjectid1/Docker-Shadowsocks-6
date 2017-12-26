@@ -1,5 +1,10 @@
 # Docker-Shadowsocks
 
+#install git
+yum install -y git
+
+git clone 
+
 #cd dir
 
 cd ~/Docker-Shadowsocks
