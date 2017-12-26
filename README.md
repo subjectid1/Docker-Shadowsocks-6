@@ -14,4 +14,5 @@ cd ~/Docker-Shadowsocks
 chmod 755 getStart.sh
 
 #get start
+
 ./getStart.sh 
