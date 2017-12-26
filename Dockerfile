@@ -1,5 +1,3 @@
-
-
 # Pull base image  
 FROM node:latest
   
@@ -20,3 +18,11 @@ USER root
 # Usage: WORKDIR /path
 WORKDIR ~/
 
+# add daemon script
+ADD  start.sh /root/
+
+#authorization
+RUN chmod 755 /root/start.sh
+
+# modify conf
+ENTRYPOINT ["/root/start.sh"]
