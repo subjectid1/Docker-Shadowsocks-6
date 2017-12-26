@@ -3,7 +3,7 @@
 #install git
 yum install -y git
 
-git clone 
+git clone https://github.com/crabdave/Docker-Shadowsocks.git
 
 #cd dir
 
