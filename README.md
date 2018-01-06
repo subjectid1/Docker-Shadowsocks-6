@@ -20,5 +20,5 @@ chmod 755 getStart.sh
 
 
 
-Download client：
+#Download client
 https://github.com/shadowsocks/shadowsocks-windows/releases
