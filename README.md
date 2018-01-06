@@ -18,4 +18,7 @@ chmod 755 getStart.sh
 
 ./getStart.sh 
 
-下载客户端：https://github.com/shadowsocks/shadowsocks-windows/releases
+
+
+Download client：
+https://github.com/shadowsocks/shadowsocks-windows/releases
