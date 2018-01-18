@@ -23,3 +23,16 @@ chmod 755 getStart.sh
 #Download client
 
 https://github.com/shadowsocks/shadowsocks-windows/releases
+
+
+
+#Buy a VPS
+
+https://www.vultr.com/?ref=6940267
+
+
+a VPS of Singapore
+
+CentOS
+
+
