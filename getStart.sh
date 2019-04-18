@@ -7,7 +7,7 @@ systemctl enable docker
 docker build -t shadowsocks .
 
 
-docker run -d --restart=always -p8388:8388 shadowsocks:latest 
+docker run -d --restart=always -p80:8388 shadowsocks:latest 
 
 
 docker ps
