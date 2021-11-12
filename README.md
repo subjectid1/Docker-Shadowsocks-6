@@ -33,6 +33,6 @@ https://www.vultr.com/?ref=6940267
 
 a VPS of Singapore
 
-CentOS
+CentOS 7
 
 
