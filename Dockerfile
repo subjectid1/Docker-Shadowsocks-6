@@ -1,5 +1,5 @@
 # Pull base image  
-FROM node:12.16.3
+FROM docker.io/node:12.16.3
   
 MAINTAINER crabdave "calorie.david@gmail.com"  
   
