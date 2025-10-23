@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ipaddr=$(ip addr | grep 'state UP' -A2 | tail -n1 | awk '{print $2}' | awk -F"/" '{print $1}')
+ipaddr=0.0.0.0
 
 echo "ip address:"
 echo $ipaddr
