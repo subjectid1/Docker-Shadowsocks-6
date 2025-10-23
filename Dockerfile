@@ -7,7 +7,7 @@ MAINTAINER crabdave "calorie.david@gmail.com"
 RUN npm install -g shadowsocks 
 
 # modify conf  
-
+RUN sed -i "s/8388/80/g" /usr/local/lib/node_modules/shadowsocks/config.json
 
 # Expose ports.  
 EXPOSE 8388  
