@@ -1,5 +1,5 @@
 # Pull base image  
-FROM nodejs/docker-node:latest
+FROM node:18
   
 MAINTAINER crabdave "calorie.david@gmail.com"  
   
