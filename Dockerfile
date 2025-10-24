@@ -1,5 +1,5 @@
 # Pull base image  
-FROM docker.io/node:12.16.3
+FROM nodejs/docker-node:latest
   
 MAINTAINER crabdave "calorie.david@gmail.com"  
   
@@ -21,8 +21,7 @@ WORKDIR ~/
 
  
 
-#authorization
-RUN chmod 755 /root/start.sh
+ 
 
 # modify conf
 ENTRYPOINT ["/root/start.sh"]
